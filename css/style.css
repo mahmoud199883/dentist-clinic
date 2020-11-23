@@ -1,0 +1,471 @@
+/*
+
+start header section
+
+*/
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+
+}
+body
+{
+    font-family: serif;
+}
+.scrolltopbtn
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+    border-radius: 50%;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+main-color
+{
+    color: #46b7de;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+  }
+  .contactdata span ,.contact-partthreetwo span
+  {
+    color: #46b7de;
+  }
+  .contactdata p{
+      font-size: 13px;
+  }
+  
+  .cotacticon a i {
+    color: #46b7de;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    transition: 0.5s all ease-in-out;
+  }
+  .cotacticon a i:hover,.contact-partthree i:hover
+  {
+      background-color: black;
+      color: #fff;
+  }
+  .main-heading
+  {
+      color: black;
+      font-weight: 700;
+      line-height: 1;
+      font-size: 34px;
+  }
+  .contactdata .contactsecondp
+  {
+      font-size: 12px;
+  }
+  .contactdata
+  {     
+      padding: 0%;
+  }
+  .contact-partthree i {
+      font-size: 15px;
+      padding: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      color: #46b7de;
+      border-radius: 50%;
+      transition: 0.5s all ease-in-out;
+  }
+  .contact-partthreetwo p{
+      font-size: 13px;
+  }
+  .navbar-nav .nav-item a{
+      color: black;
+      padding: 10px;
+      margin: 10px;
+      font-size: 18px;
+  }
+  .navbar-nav .nav-item a:hover{
+    color: #46b7de !important;
+  }
+  .carousel-item
+  {
+      background-color: cyan;
+      position: relative;
+  }
+  .carousel-caption
+  {
+      position: absolute;
+      top: 40%;
+      left: 55%;
+      color: black;
+      text-align: left;
+  }
+  .carousel-caption h1{
+      font-size: 50px;
+      color:#000000;
+      line-height: 1.2;
+      font-weight: 300;
+  }
+  .carousel-caption h3{
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+  
+
+  @media only screen and (max-width: 600px) {
+    .carousel-item h1 ,.carousel-item h3
+    {
+        display: none;
+    }
+} 
+
+  .slidebtn
+  {
+      background-color:  #a8c337  !important;
+      color: #fff !important;
+  }
+  /* 
+  
+  end header section 
+  
+  */
+
+  /* 
+
+  start about section
+  
+  */
+  .about p{
+      font-family: sans-serif;
+  }
+  .img-con
+  {
+    width: 50px;
+    height: 50px; 
+  }
+ .img-con img{
+      width: 100%;
+      border-radius: 50%;
+  }
+
+  /* 
+  
+  end about section
+  
+  */
+
+
+  /* 
+
+  start freeconsultation section
+  
+  */
+  .center-conten
+  {
+      background-color: #24a1cd;
+  }
+  .back,.freeconsultation
+  {
+      background-color: #46b7de;
+  }
+  .myinputcon
+  {
+      color: #fff !important;
+  }
+  .myinput
+  {
+      background-color: transparent !important;
+      color: #fff !important;
+      border: transparent;
+      border-radius: 0;
+      border-bottom: 1px solid #fff;
+      height: 40px !important;
+      padding-left: 0;
+      padding-right: 0;
+      background: transparent !important;
+     color: rgba(255, 255, 255, 0.9) !important;
+      font-size: 13px;
+  }
+  .myinput::placeholder
+  {
+      color: #fff;
+  }
+  /* .formcon button{
+      background-color: greenyellow;
+      border-radius: 12px;
+      border: none;
+      padding: 10px;
+  } */
+  .consultbtn
+  {
+    background-color:  #a8c337  !important;
+    color: #fff !important;
+  }
+
+
+
+
+
+
+ /* 
+
+  start service section
+  
+  */
+  
+  .service
+  {
+      padding: 8rem 0;
+  }
+  .servicetype i{
+      padding: 20px ;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      border-radius: 50%;
+      margin-bottom: 10px;
+      color: #46b7de;
+      transition: 0.5s all ease-in-out;
+
+  }
+  .servicetype p{
+      font-size: 14px;
+  }
+  .servicetype i:hover
+  {
+      background-color:#46b7de;
+      color: #fff;
+  }
+
+
+  .promise
+  {
+      background-image: url(../images/bg_3.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 50px 0px;
+  }
+
+
+
+
+
+
+ /* 
+
+  start doctors section
+  
+  */
+
+
+.doctorimage
+{
+    position: relative;
+    overflow: hidden;
+}
+
+  .doctorsocail
+  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      position: absolute;
+      top: 80%;
+      right: 0px;
+      bottom: 0px;
+      left:0px;
+  }
+  .doctorsocail a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      margin:2px ;
+      text-decoration: none;
+      height: 30px;
+      color: #a8c337;
+      background-color: #fff;
+      border-radius: 50%; 
+      transition: .3s all ease;
+  
+  }
+  .doctorsocail a i {
+    color: #a8c337;
+   }
+
+.doctorimage:hover a{
+    transform: translate(0,-10px);
+}
+img{
+    transition:.3s all ease;
+}
+.doctorimage:hover img{
+    transform: scale(1.2);
+}
+.doctors  h3{
+    color: #007bff;
+}
+.docinfo
+{
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* 
+
+Testimonials section styling 
+
+
+*/
+ 
+
+.Testimonials
+{
+    background-color: #fafafa !important;
+    padding: 100px 0px;
+}
+.slider-item
+{
+    padding: 10px;
+}
+
+.myhead h2{
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .Testimonials .card-text
+    {
+        display: none;
+    }
+} 
+
+
+/*
+
+Consultaion section
+
+*/
+
+.consult
+{
+    padding: 100px 1px;
+    background-image: url(../images/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.consult .overlay
+{
+    
+    background-color:rgba(54, 202, 212, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+
+/* 
+
+price section styling
+
+*/
+.pricecontainer
+{
+    position: relative;
+}
+
+.pricecontainer:hover .pricebtn
+{
+    background-color: #28a745 !important;
+}
+.price
+{
+    color: #46b7de !important;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 5px;
+}
+.pricecontainer:hover .price
+{
+    color: #28a745 !important;
+}
+
+
+
+/* 
+
+blog section
+
+*/
+
+.blog
+{
+    background-color: #fafafa !important;
+
+}
+.card
+{
+    position: relative;
+}
+.mydate
+{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    background-color:rgba(54, 202, 212, 0.8)!important;
+    right: 0;
+    bottom: 225px;
+    padding: 1px 10px;
+}
+
+
+
+.media img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/*
+
+footer styling
+
+*/
+footer
+{
+    font-family: sans-serif;
+    background-color:#46b7de;
+    color: #fff;
+}
+footer a ,footer h5
+{
+    font-size: 13px !important;
+    font-weight: lighter;
+}
+footer ul li{
+    background-color: transparent !important;
+ 
+}
+footer ul a{
+color: white !important;
+text-decoration: none !important; 
+}

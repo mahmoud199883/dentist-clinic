@@ -253,10 +253,22 @@ main-color
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      padding: 50px 0px;
+      position: relative;
+      padding: 150px 10px;
+      color: #fff;
+
   }
 
+  .promise .overlay  
+{
+    background-color:rgba(54, 202, 212, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+}
 
 
 

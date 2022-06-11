@@ -4,7 +4,7 @@ $(document).ready(function()
 {
   $('.slick-slider').slick({
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay:true,
     autoplaySpeed:800,
@@ -63,4 +63,42 @@ $("a").click(function()
 
 $('.carousel').carousel({
   interval: 2000
+})
+
+//validations inputs
+
+var firstnameinput=document.getElementById('firstnameinput');
+
+var myregex=/^[a-z]{3,10}/;
+
+firstnameinput.addEventListener('keyup',function()
+{
+  if(myregex.test(firstnameinput.value)==false)
+  {
+    firstnameinput.classList.add('is-invalid');
+    firstnameinput.classList.remove('is-valid');
+  }
+  else
+  {
+    firstnameinput.classList.add('is-valid');
+    firstnameinput.classList.remove('is-invalid');
+  }
+})
+
+var lastname=document.getElementById('lastnameinput');
+
+var myregex=/^[a-z]{3,10}/;
+
+lastname.addEventListener('keyup',function()
+{
+  if(myregex.test(lastname.value)==false)
+  {
+    lastname.classList.add('is-invalid');
+    lastname.classList.remove('is-valid');
+  }
+  else
+  {
+    lastname.classList.add('is-valid');
+    lastname.classList.remove('is-invalid');
+  }
 })

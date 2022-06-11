@@ -349,6 +349,11 @@ Testimonials section styling
     background-color: #fafafa !important;
     padding: 100px 0px;
 }
+.slick-slider
+{
+    overflow: hidden;
+}
+
 .slider-item
 {
     padding: 10px;
@@ -357,8 +362,8 @@ Testimonials section styling
 .myhead h2{
     font-size: 25px;
 }
-@media only screen and (max-width: 600px) {
-    .Testimonials .card-text
+@media only screen and (max-width: 720px) {
+    .Testimonials 
     {
         display: none;
     }
@@ -444,7 +449,7 @@ blog section
     position: absolute;
     background-color:rgba(54, 202, 212, 0.8)!important;
     right: 0;
-    bottom: 225px;
+    bottom: 0;
     padding: 1px 10px;
 }
 
